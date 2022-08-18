@@ -19,6 +19,17 @@
       <artifactId>AWSGlueETL</artifactId>
       <version>${project.version}</version>
     </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-all</artifactId>
+      <version>4.1.71.Final</version>
+    </dependency>
+<dependency>
+    <groupId>com.qubole.spark</groupId>
+    <artifactId>spark-sql-kinesis_2.12</artifactId>
+    <version>1.2.0_spark-3.0.1</version>
+</dependency>
+
   </dependencies>
   <repositories>
     <repository>
